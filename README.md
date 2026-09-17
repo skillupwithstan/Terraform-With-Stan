@@ -9,7 +9,7 @@
 *Use the links below to jump directly to a specific module in the course.*
 
 * [**Module 1:** Getting Started](https://www.google.com/search?q=%231-getting-started)
-* [**Module 2:** Why Infrastructure as Code (IaC)?](https://www.google.com/search?q=%232-why-infrastructure-as-code-iac)
+* [**Module 2:** Why Infrastructure as Code (IaC)?](https://github.com/skillupwithstan/Terraform-With-Stan/blob/main/00%20-%20Why%20Infrastructure%20as%20Code)
 * [**Module 3:** Why Terraform?](https://www.google.com/search?q=%233-why-terraform)
 * [**Module 4:** Install and Configure Terraform](https://www.google.com/search?q=%234-install-and-configure-terraform)
 * [**Module 5:** Terraform Common Topics](https://www.google.com/search?q=%235-terraform-common-topics)
