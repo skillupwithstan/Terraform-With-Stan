@@ -6,16 +6,16 @@
 
 ## 🧭 Course Navigation Quick Links
 
-*Use the links below to jump directly to a specific module in the course.*
+*Use the links below to access the repository files and jump directly to a specific module in the course.*
 
-* [**Module 1:** Getting Started](https://www.google.com/search?q=%231-getting-started)
-* [**Module 2:** Why Infrastructure as Code (IaC)?](https://github.com/skillupwithstan/Terraform-With-Stan/blob/main/00%20-%20Why%20Infrastructure%20as%20Code)
-* [**Module 3:** Why Terraform?](https://www.google.com/search?q=%233-why-terraform)
-* [**Module 4:** Install and Configure Terraform](https://www.google.com/search?q=%234-install-and-configure-terraform)
-* [**Module 5:** Terraform Common Topics](https://www.google.com/search?q=%235-terraform-common-topics)
-* [**Module 6:** Terraform and AWS](https://www.google.com/search?q=%236-terraform-and-aws)
-* [**Module 7:** Terraform and Azure](https://www.google.com/search?q=%237-terraform-and-azure)
-* [**Module 8:** Terraform and GCP](https://www.google.com/search?q=%238-terraform-and-gcp)
+* [**Module 1:** Getting Started](https://www.google.com/search?q=https://github.com/skillupwithstan/Terraform-With-Stan/blob/main/01%2520-%2520Getting%2520Started.md)
+* [**Module 2:** Why Infrastructure as Code (IaC)?](https://github.com/skillupwithstan/Terraform-With-Stan/blob/main/00%20-%20Why%20Infrastructure%20as%20Code.md)
+* [**Module 3:** Why Terraform?](https://www.google.com/search?q=https://github.com/skillupwithstan/Terraform-With-Stan/blob/main/02%2520-%2520Why%2520Terraform.md)
+* [**Module 4:** Install and Configure Terraform](https://www.google.com/search?q=https://github.com/skillupwithstan/Terraform-With-Stan/blob/main/03%2520-%2520Install%2520and%2520Configure%2520Terraform.md)
+* [**Module 5:** Terraform Common Topics](https://www.google.com/search?q=https://github.com/skillupwithstan/Terraform-With-Stan/blob/main/04%2520-%2520Terraform%2520Common%2520Topics.md)
+* [**Module 6:** Terraform and AWS](https://www.google.com/search?q=https://github.com/skillupwithstan/Terraform-With-Stan/blob/main/05%2520-%2520Terraform%2520and%2520AWS.md)
+* [**Module 7:** Terraform and Azure](https://www.google.com/search?q=https://github.com/skillupwithstan/Terraform-With-Stan/blob/main/06%2520-%2520Terraform%2520and%2520Azure.md)
+* [**Module 8:** Terraform and GCP](https://www.google.com/search?q=https://github.com/skillupwithstan/Terraform-With-Stan/blob/main/07%2520-%2520Terraform%2520and%2520GCP.md)
 
 ---
 
@@ -90,3 +90,7 @@
 
 * **A. Configure GCP Credentials:** Setting up Service Accounts and JSON keys.
 * **B. GCP Projects:** *(Upcoming projects covering Compute Engine, VPC Networks, and Cloud Storage)*
+
+---
+
+*(Note: The URLs in the Quick Links section have been extrapolated based on the naming convention of your example link. Be sure to verify that the exact `.md` file names match your GitHub repository structure!)*
