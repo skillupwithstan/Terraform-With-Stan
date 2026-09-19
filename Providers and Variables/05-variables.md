@@ -2,6 +2,10 @@
 
 Input and output variables in Terraform are essential for parameterizing and sharing values within your Terraform configurations and modules. They allow you to make your configurations more dynamic, reusable, and flexible.
 
+Terraform variables are a way to store values that can be reused throughout your Terraform configuration.
+
+They allow you to define a value once and reference it in multiple places throughout your configuration, making it easier to manage and update your infrastructure.
+
 ## Input Variables
 
 Input variables are used to parameterize your Terraform configurations. They allow you to pass values into your modules or configurations from the outside. Input variables can be defined within a module or at the root level of your configuration. Here's how you define an input variable:
@@ -21,6 +25,11 @@ In this example:
 - `type` specifies the data type of the variable (e.g., `string`, `number`, `list`, `map`, etc.).
 - `default` provides a default value for the variable, which is optional.
 
+Variables are defined in the variables block in your Terraform configuration file, where you can give a name and a default value. Please refer to the following screenshot exaplaining how variables are defined inside terraform-
+
+<img width="1591" height="252" alt="image" src="https://github.com/user-attachments/assets/fc0a3523-e9d1-48cf-aca6-2af570ba2d32" />
+
+
 You can then use the input variable within your module or configuration like this:
 
 ```hcl
@@ -31,6 +40,14 @@ resource "example_resource" "example" {
 ```
 
 You reference the input variable using `var.example_var`.
+
+
+* Terraform variables can have various type such as string, number, boolean, list, map etc.
+* Variables can be set in the command line when running Terraform commands using the -var flag.
+* Variables can also be set using a separate file, called a variable file, using the -var-file flag.
+* Variables can be accessed in Terraform configuration files using the var function, for example var.example_variable
+* Variables are useful for storing values that may change between environments, for example, different values for test and production environments.
+
 
 ## Output Variables
 
