@@ -1,4 +1,4 @@
-Here is the fully formatted Markdown file. You can easily copy this entire block and save it as your `.md` file. All the code sections are properly enclosed in syntax-highlighted blocks to preserve their alignment and make them easy to copy.
+**TERRAFORM VARIABLE TYPES - with - IMPLEMENTATION GUIDE:**
 
 ```markdown
 # 1. Types of Terraform Variables
