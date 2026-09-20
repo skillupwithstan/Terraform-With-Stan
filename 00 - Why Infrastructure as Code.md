@@ -2,6 +2,20 @@
 
 Before the advent of IaC, managing infrastructure was a manual, time-consuming, and error-prone process. Infrastructure as Code transforms this by allowing you to define, provision, and manage your cloud resources using human-readable, version-controlled configuration files.
 
+Here is the standard Markdown link you can insert directly into your file:
+
+```markdown
+[TERRAFORM - DEEP DIVE SESSIONS IN ENGLISH - SESSION 1 - INFRASTRUCTURE AS CODE](https://youtu.be/C0tcsXdyeZ4)
+
+```
+
+If you prefer to embed a clickable video thumbnail instead of just text (which works great in GitHub Markdown files), use this snippet:
+
+```markdown
+[![TERRAFORM - DEEP DIVE SESSIONS IN ENGLISH - SESSION 1 - INFRASTRUCTURE AS CODE](https://img.youtube.com/vi/C0tcsXdyeZ4/0.jpg)](https://youtu.be/C0tcsXdyeZ4)
+
+```
+
 ### The Shift: Manual vs. IaC
 
 Here is a breakdown of the challenges faced by system administrators before IaC, and how modern tools resolve them:
