@@ -13,16 +13,16 @@ variable "my-instance-type" {
 }
 
 variable "client_name" {
-  default = "my-default"
+  default = "SkillUpWithStan"
 }
 variable "managed_by" {
-  default = "devops"
+  default = "Terraform"
 }
 
 terraform.tfvars
 my-instance-type = "t2.micro"
-client_name      = "Skill Up with Stan"
-managed_by       = "terraform"
+client_name      = "SkillUpWithStan"
+managed_by       = "Terraform"
 
 1. AWS VPC (Virtual Private  Cloud)
 2. AWS Internet Gateway (IGW)
@@ -131,8 +131,8 @@ resource "aws_security_group" "sg1" {
   ingress {
     from_port   = 0
     to_port     = 0
-    protocol    = "-1"Compare Developer Tools
-    cidr_blocks = ["115.99.14.198/32", aws_vpc.vpc1.cidr_block]
+    protocol    = "-1"
+    cidr_blocks = ["20.69.154.121/32", aws_vpc.vpc1.cidr_block]
 
   }
 
