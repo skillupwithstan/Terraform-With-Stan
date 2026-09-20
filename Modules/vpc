@@ -21,7 +21,7 @@ variable "managed_by" {
 
 terraform.tfvars
 my-instance-type = "t2.micro"
-client_name      = "coke"
+client_name      = "Skill Up with Stan"
 managed_by       = "terraform"
 
 1. AWS VPC (Virtual Private  Cloud)
