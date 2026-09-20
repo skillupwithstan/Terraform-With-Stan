@@ -15,6 +15,8 @@ Here is a breakdown of the challenges faced by system administrators before IaC,
 | **Documentation** | Heavy reliance on runbooks and wikis that quickly became outdated. | **Self-Documenting:** The code itself acts as the single source of truth for the environment's state. |
 | **Speed & Scale** | Provisioning environments took days or weeks of clicking through console menus. | **Rapid Provisioning:** Whole environments (Dev, Staging, Prod) can be spun up or destroyed in minutes. |
 
+[![TERRAFORM IN TAMIL - DAY 1 PART 2 - INFRASTRUCTURE AS CODE](https://img.youtube.com/vi/c6m5w48hTJA/0.jpg)](https://youtu.be/c6m5w48hTJA)
+
 ### Visualizing the Difference: Provisioning a Server
 
 **The Old Way (Manual Clicks):**
